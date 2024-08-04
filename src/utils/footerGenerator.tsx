@@ -31,7 +31,9 @@ export function generateFooter(footerData: FooterData) {
                         <h2 style="margin: 0; font-weight: bold; font-size: 16px; color: ${footerData?.colorTheme?.text};">${footerData?.title}</h2>
                         <h3 style="margin: 0; font-size: 14px; color: ${footerData?.colorTheme?.text};">${footerData?.subTitle}</h3>
                     </div>
-                    
+                    <div>
+                        <p style="padding-bottom: 1px; text-align: left;">${footerData?.company}</p>
+                    </div>
                     <div style="margin-top: 10px; font-size: 12px; color: ${footerData.colorTheme.text}; text-align: left;">
                         <p style="padding-bottom: 1px;">${footerData?.number}</p>
                         <p style="padding-bottom: 1px;">${footerData?.email}</p>
@@ -39,7 +41,7 @@ export function generateFooter(footerData: FooterData) {
                     </div>
                     <div style="margin-top: 10px; display: flex">
                         ${footerData.socials?.map(social => `
-                            <a href="${social.url}" style="text-decoration: none; margin-right: 10px;">
+                            <a href="${social.url}" target="_blank" style="text-decoration: none; margin-right: 10px;">
                                 ${
                                     generateSource(social?.name) !== '' ?
                                     `<img src="${generateSource(social?.name)}" alt="${social?.name}" style="width: 24px; height: 24px;"/>`

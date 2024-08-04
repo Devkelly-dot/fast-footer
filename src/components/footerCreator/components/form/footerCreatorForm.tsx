@@ -7,6 +7,9 @@ import StyledButton from "../../../common/styledButton";
 import NumberInput from "./widgets/numberInput";
 import EmailInput from "./widgets/emailInput";
 import AddressInput from "./widgets/addressInput";
+import SocialsInput from "./widgets/socialsInput";
+import CompanyInput from "./widgets/companyInput";
+import BottomBannerInput from "./widgets/bannerImageInput";
 
 export default function FooterCreatorForm() {
     const [showForm, setShowForm] = useState(true);
@@ -24,9 +27,12 @@ export default function FooterCreatorForm() {
                         <ImageInput/>
                         <NameInput/>
                         <RoleInput/>
+                        <CompanyInput/>
                         <NumberInput/>
                         <EmailInput/>
                         <AddressInput/>
+                        <SocialsInput/>
+                        <BottomBannerInput/>
                     </>
                 }
                 <StyledButton

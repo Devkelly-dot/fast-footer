@@ -50,7 +50,7 @@ const FooterCreatorProvider: FC<FooterCreatorProviderProps> = ({ children }) => 
             textColor: 'white',
             backgroundColor: '#800020'
         },
-        company: ''
+        company: 'My Compnay LLC'
     });
 
     return (

@@ -17,7 +17,7 @@ export default function GmailInstructions() {
                 </li>
                 <li className="flex items-start">
                     <span className="w-4 h-4 mt-1 mr-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                    Copy the entire HTML code in the text area that appears
+                    Highlight the entire HTML code that appears and copy it with control-C
                 </li>
                 <li className="flex items-start">
                     <span className="w-4 h-4 mt-1 mr-2 bg-blue-500 rounded-full flex-shrink-0"></span>
@@ -29,11 +29,19 @@ export default function GmailInstructions() {
                 </li>
                 <li className="flex items-start">
                     <span className="w-4 h-4 mt-1 mr-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                    Rename the signature.txt file to signature.html and double click the file to open it in your browser
+                    Press control-S to save the file and then close the file
                 </li>
                 <li className="flex items-start">
                     <span className="w-4 h-4 mt-1 mr-2 bg-blue-500 rounded-full flex-shrink-0"></span>
-                    The browser will display your signature. Press control-a to highlight the entire browser page 
+                    Right click signature.txt and rename the file to signature.html, then double click the file to open it in your browser
+                </li>
+                <li className="flex items-start">
+                    <span className="w-4 h-4 mt-1 mr-2 bg-blue-500 rounded-full flex-shrink-0"></span>
+                    The browser will display your signature. Press control-A to highlight the entire browser page 
+                </li>
+                <li className="flex items-start">
+                    <span className="w-4 h-4 mt-1 mr-2 bg-blue-500 rounded-full flex-shrink-0"></span>
+                    While the page is highlighted, press control-C to copy the signature 
                 </li>
                 <li className="flex items-start">
                     <span className="w-4 h-4 mt-1 mr-2 bg-blue-500 rounded-full flex-shrink-0"></span>
