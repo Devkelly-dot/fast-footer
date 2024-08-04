@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useFooterData } from "../../../../../context/footerCreatorContext";
 import { generateFooter } from "../../../../../utils/footerGenerator";
-import StyledButton from "../../../../universal/styledButton";
+import StyledButton from "../../../../common/styledButton";
 
 export default function HtmlPreview() {
     const {footerData} = useFooterData();
@@ -18,7 +18,7 @@ export default function HtmlPreview() {
                         readOnly 
                         className="w-full h-48 p-3 border border-gray-300 rounded-lg shadow-sm mb-4 resize-none"
                     />
-                    <StyledButton 
+                    <StyledButton
                         onClick={() => setShowHtml(false)} 
                         text="Hide HTML"
                         alt

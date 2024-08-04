@@ -1,6 +1,8 @@
+import ShadowBox from "../../../../../common/shadowBox";
+
 export default function GmailInstructions() {
     return (
-        <div className="p-6 w-full mx-auto bg-white shadow-lg rounded-lg">
+        <ShadowBox>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 Gmail And Other Email Clients Auto Signature:
             </h3>
@@ -38,6 +40,6 @@ export default function GmailInstructions() {
                     Now you can paste this signature into your Gmail's signature settings
                 </li>
             </ol>
-        </div>
+        </ShadowBox>
     )
 }

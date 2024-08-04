@@ -8,7 +8,6 @@ export default function FooterCreator() {
         <FooterCreatorProvider>
             <div className="flex justify-center">
                 <div style={{width: '1280px'}}>
-                    <h1>Footer Creator</h1>
                     <FooterCreatorForm/>
                     <Preview/>
                 </div>

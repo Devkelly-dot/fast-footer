@@ -1,6 +1,8 @@
+import ShadowBox from "../../../../../common/shadowBox";
+
 export default function CopyPasteInstructions() {
     return (
-        <div className="p-6 w-full mx-auto bg-white shadow-lg rounded-lg">
+        <ShadowBox>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 Manually Copy And Paste Signature:
             </h3>
@@ -21,6 +23,6 @@ export default function CopyPasteInstructions() {
                     {"Compose a new email and press Control-V to paste the signature into the email body"}
                 </li>
             </ol>
-        </div>
+        </ShadowBox>
     )
 }
